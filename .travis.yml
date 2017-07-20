@@ -5,5 +5,5 @@ python:
   - "3.4"
   - "3.5"
 script:
-  - python setup.py build
+  - python setup.py build bdist
   - python setup.py test
