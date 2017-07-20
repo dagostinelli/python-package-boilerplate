@@ -8,7 +8,7 @@ A terse boilerplate for Python packages.  Where other boilerplates contain a gre
 
 ## Package
 
-Basic structure of package is
+The package structure is:
 
 ```
 ├── packagename
@@ -34,8 +34,26 @@ Package requirements are handled using setup.py. They will be automatically inst
 
 Testing is set up using the built in Unit Test framework in Python
 
-Run the tests with ```python setup.py test``` in the root directory or use the handy ```test.sh``` script in the `/scripts` folder.
+Run the tests with `python setup.py test` in the root directory or use the handy `test.sh` script in the `/scripts` folder.
 
 ## Travis CI
 
-There is a ```.travis.yml``` file that will execute the build and the unit tests against several versions of Python.
+There is a `.travis.yml` file that will execute the build and the unit tests against several versions of Python.
+
+## Quick Start
+
+```
+git clone https://github.com/dagostinelli/python-package-boilerplate
+cd python-package-boilerplate
+virtualenv venv
+source venv/bin/activate
+cd scripts
+./build.sh
+./test.sh
+```
+
+Then begin renaming things and keep running those unit tests as you go.
+
+## Nice to Add
+
+I enjoy filesystem monitors that look for files as I change them and then automatically execute the unit tests in the background.  I haven't found a cross-platform way to do that yet, so it's not in this boilerplate.
