@@ -2,6 +2,7 @@ python-package-boilerplate
 ==========================
 
 [![Build Status](https://travis-ci.org/dagostinelli/python-package-boilerplate.png?branch=master)](https://travis-ci.org/dagostinelli/python-package-boilerplate)
+[![Requirements Status](https://requires.io/github/dagostinelli/python-package-boilerplate/requirements.svg?branch=master)](https://requires.io/github/dagostinelli/python-package-boilerplate/requirements/?branch=master)
 
 A terse boilerplate for most Python Packages.  Where other boilerplates contain a great many features such as a CLI, code coverage and varying opinions on what a unit test should look like, this one aims to be lean and mean.
 
