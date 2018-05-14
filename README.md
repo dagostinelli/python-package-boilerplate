@@ -54,6 +54,25 @@ cd scripts
 
 Then begin renaming things and keep running those unit tests as you go.
 
+## CLI
+
+This example shows how to do a command line interface (CLI).  You can try it like this:
+
+```
+git clone https://github.com/dagostinelli/python-package-boilerplate
+cd python-package-boilerplate
+python -m packagename
+```
+
+or like this
+
+```
+git clone https://github.com/dagostinelli/python-package-boilerplate
+cd python-package-boilerplate
+pipsi install .
+packagename
+```
+
 ## Nice to Add
 
 I enjoy filesystem monitors that look for files as I change them and then automatically execute the unit tests in the background.  I haven't found a cross-platform way to do that yet, so it's not in this boilerplate.
