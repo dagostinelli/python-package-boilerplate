@@ -13,6 +13,7 @@ The package structure is:
 ```
 ├── packagename
 │   ├── __init__.py
+│   ├── __main__.py
 │   └── somemodule.py
 └── tests
 │   ├── __init__.py
