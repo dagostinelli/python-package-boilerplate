@@ -10,7 +10,7 @@ setup(
     url = 'http://www.somewhere.com',
     description = 'Lorem ipsum dolor fiat lux',
     long_description = open('README.md').read().strip(),
-    packages = find_packages('packagename'),
+    packages = find_packages(),
     install_requires=[
         # put packages here
         'six',
