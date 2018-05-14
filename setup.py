@@ -16,4 +16,9 @@ setup(
         'six',
     ],
     test_suite = 'tests',
+    entry_points = {
+	    'console_scripts': [
+	        'packagename = packagename.__main__:main',
+	    ]
+	}
 )
