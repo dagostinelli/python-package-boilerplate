@@ -3,7 +3,7 @@
 default: test
 
 clean-pyc:
-	@find . -iname '*.pc[co]' -delete
+	@find . -iname '*.py[co]' -delete
 	@find . -iname '__pycache__' -delete
 
 clean-dist:
