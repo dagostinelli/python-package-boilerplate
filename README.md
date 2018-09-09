@@ -76,4 +76,4 @@ packagename
 
 ## Nice to Add
 
-I enjoy filesystem monitors that look for files as I change them and then automatically execute the unit tests in the background.  I haven't found a cross-platform way to do that yet, so it's not in this boilerplate.
+I enjoy filesystem monitors that look for files as I change them and then automatically execute the unit tests in the background.  I haven't found a cross-platform way to do that yet, so it's not in this boilerplate. For interested parties running Linux, you can do it in a `make` file.  Create a `make watch` target in your `Makefile`and call `inotifywatch` there.
