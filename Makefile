@@ -17,9 +17,9 @@ test:
 	pytest -vvv
 
 dist: clean
-	python setup.py sdist
-	python setup.py bdist_wheel
+	python3 setup.py sdist
+	python3 setup.py bdist_wheel
 
 version: dist
-	python setup.py -q version
+	python3 setup.py -q version
 
