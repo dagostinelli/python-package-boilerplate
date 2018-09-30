@@ -21,5 +21,5 @@ dist: clean
 	python3 setup.py bdist_wheel
 
 version: dist
-	python3 setup.py -q version
+	python3 setup.py --version
 
