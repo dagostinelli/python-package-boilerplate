@@ -23,3 +23,6 @@ dist: clean
 version: dist
 	python3 setup.py --version
 
+license: dist
+	python3 setup.py --license
+

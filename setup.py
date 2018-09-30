@@ -1,10 +1,12 @@
 from setuptools import setup, find_packages
 
 version = open('VERSION').read().strip()
+license = open('LICENSE').read().strip()
 
 setup(
     name = 'python-package-boilerplate',
     version = version,
+    license = license,
     author = 'Your Name Here',
     author_email = 'you@somewhere.com',
     url = 'http://www.somewhere.com',
